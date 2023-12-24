@@ -3,7 +3,7 @@ import { db } from "@/lib/db";
 import { redirect } from "next/navigation";
 import { InitialModal } from "@/components/modals/initial-modal";
 
-
+//this is our main file which runs the app
 
 const SetupPage = async () => {
     const profile=await initialProfile();
